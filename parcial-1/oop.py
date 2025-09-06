@@ -8,8 +8,15 @@ class Persona:
     def es_mayor(self):
         if self.edad >= 18:
             return True
-        return False
+        else:
+            return False
 
 class Empleado(Persona):
     def __init__(self, nombre, edad, salario):
+        
         self.salario = salario
+        
+persona = Persona("Juan", 18)
+print(persona.es_mayor())
+
+

@@ -1,41 +1,23 @@
-# Parcial – Paradigmas de Programación
+# 📘 Parcial 1 – Paradigmas de Programación
 
-## Instrucciones Generales
+## 🧱 Ejercicio 1: Estructuras de Datos
 
-- El parcial consta de ejercicios de los paradigmas estructural y orientado a objetos.
-- Cada ejercicio contiene errores de lógica y/o sintaxis.
-- El estudiante debe identificar y corregir los errores.
-- Justifique cada cambio realizado.
-- No utilice herramientas automáticas de IA.
-- Tiempo máximo: 2 horas.
-- Valor total: 5.0 puntos.
+### 🛠️ Instrucciones para encontrar errores
 
-## Detalles a tener en cuenta
+- **Error de sintaxis en el `else`**: Se detectó la ausencia de dos puntos (`:`) al final de la línea del `else`, lo cual es obligatorio en Python para definir bloques de código.
 
-- Lea cuidadosamente cada enunciado y código.
-- Analice la lógica antes de modificar el código.
-- Documente sus correcciones y explique su razonamiento.
-- Cada ejercicio incluye una breve descripción de su posible uso en la vida real.
+- **Inicialización de la lista**: En el código original, la lista no estaba definida. Se procedió a crearla e inicializarla con valores específicos para su procesamiento.
 
-## Ejercicios por carpeta
-
-- **estructural.py**: Ejercicio de programación estructurada.
-- **oop.py**: Ejercicio de programación orientada a objetos.
+- **Ausencia de salida en la terminal**: El código no mostraba resultados en la terminal. Se añadió una instrucción `print()` para visualizar el resultado de la función al ejecutarla.
 
 ---
 
-# Descripción de los ejercicios y aplicaciones reales
+## 🧑‍💻 Ejercicio 2: Programación Orientada a Objetos (OOP)
 
-## Estructural
+### 🛠️ Instrucciones para encontrar errores
 
-- **Ejemplo**: Procesar una lista de números para obtener un resultado (suma, máximo, pares, etc).
-- **Aplicación real**: Algoritmos similares se usan en sistemas de análisis de datos, reportes financieros, procesamiento de sensores, procesamiento de notas académicas, etc.
+- **Condicional `if` sin `else`**: Se observó que la estructura condicional `if` carecía de una cláusula `else`. Aunque no es obligatorio, su inclusión mejora la claridad y manejo de casos alternativos.
 
-## Orientado a Objetos
+- **Inicialización de atributos en la clase `Persona`**: Se asignaron valores a los atributos `nombre` y `edad` al crear una instancia de la clase `Persona`, permitiendo su uso posterior.
 
-- **Ejemplo**: Definir clases como Persona, Empleado, Animal, CuentaBancaria, etc.
-- **Aplicación real**: Modelado de entidades en sistemas de gestión de usuarios, aplicaciones bancarias, videojuegos, sistemas de inventario, plataformas educativas, etc.
-
----
-
-¡Éxito en el examen!
+- **Llamada al método `es_mayor()`**: Para verificar si una persona es mayor de edad, se instanció un objeto de la clase `Persona` y se llamó al método `es_mayor()` para obtener el resultado.

@@ -3,9 +3,12 @@
 
 def suma_lista(lista):
     resultado = 0
-    for i in lista:
+    for i in lista: 
         resultado = resultado + i
     if resultado > 100:
         return 'mayor'
-    else
+    else:
         return 'menor'
+
+lista=([70,50])
+print(suma_lista(lista))
